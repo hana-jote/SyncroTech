@@ -1,8 +1,11 @@
+export * from "./alert";
 export * from "./button";
 export * from "./card";
 export * from "./checkbox";
 export * from "./input";
+export * from "./progress";
 export * from "./radio-group";
 export * from "./select";
 export * from "./separator";
+export * from "./spinner";
 
