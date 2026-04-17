@@ -1,8 +1,10 @@
+export * from "./accordion";
 export * from "./alert";
 export * from "./alert-dialog";
 export * from "./button";
 export * from "./card";
 export * from "./checkbox";
+export * from "./collapsible";
 export * from "./dialog";
 export * from "./input";
 export * from "./progress";
@@ -11,3 +13,4 @@ export * from "./select";
 export * from "./separator";
 export * from "./sheet";
 export * from "./spinner";
+export * from "./tabs";
