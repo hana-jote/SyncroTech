@@ -14,3 +14,7 @@ export * from "./separator";
 export * from "./sheet";
 export * from "./spinner";
 export * from "./tabs";
+export * from "./sidebar";
+export * from "./pagination";
+export * from "./context-menu";
+export * from "./tooltip";
