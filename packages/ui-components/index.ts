@@ -1,6 +1,7 @@
 export * from "./accordion";
 export * from "./alert";
 export * from "./alert-dialog";
+export * from "./breadcrumb";
 export * from "./button";
 export * from "./card";
 export * from "./checkbox";
@@ -8,6 +9,8 @@ export * from "./collapsible";
 export * from "./context-menu";
 export * from "./dialog";
 export * from "./input";
+export * from "./menubar";
+export * from "./navigation-menu";
 export * from "./pagination";
 export * from "./progress";
 export * from "./radio-group";
