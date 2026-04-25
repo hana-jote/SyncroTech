@@ -1,4 +1,5 @@
-import { Button, Card, Input, Label } from "ui-components";
+import * as React from "react";
+import { Button, Card, Input, Label } from "@repo/ui-components";
 
 export const Login = () => {
   return (
