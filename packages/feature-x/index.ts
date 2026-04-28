@@ -1,2 +1,4 @@
 // packages/feature-x/index.ts
-export * from "./dashboard/Dashboard";
+export * from "./src/dashboard/Dashboard";
+export { default as Landing } from "./src/landing/Landing";
+
