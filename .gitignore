@@ -3,3 +3,8 @@ dist/
 *.log 
 .vscode/ 
 .env 
+node_modules/
+.next/
+dist/
+build/
+.env
