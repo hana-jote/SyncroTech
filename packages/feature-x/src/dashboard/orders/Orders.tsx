@@ -1,6 +1,5 @@
 'use client'
 
-import * as React from 'react'
 import { Button } from '@repo/ui-components/button'
 import { Card } from '@repo/ui-components/card'
 import { Input } from '@repo/ui-components/input'
@@ -113,11 +112,8 @@ export default function OrdersPage() {
                   <td className="px-6 py-4 text-sm text-muted-foreground">
                     {order.date}
                   </td>
-
                   <td className="px-6 py-4 text-sm">
-                    <span
-                      className={`px-3 py-1 rounded-full text-xs font-medium ${order.statusColor}`}
-                    >
+                    <span className={`px-3 py-1 rounded-full text-xs font-medium ${order.statusColor}`}>
                       {order.status}
                     </span>
                   </td>

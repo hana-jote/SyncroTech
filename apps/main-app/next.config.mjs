@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ['ui-components', 'feature-x', 'feature-y', 'utils'],
+  transpilePackages: ['@repo/ui-components', '@repo/utils', 'feature-x', 'feature-y'],
   typescript: {
     ignoreBuildErrors: true,
   },

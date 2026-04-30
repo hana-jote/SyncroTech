@@ -1,6 +1,5 @@
 'use client'
 
-import * as React from 'react'
 import { Button } from '@repo/ui-components/button'
 import { Card } from '@repo/ui-components/card'
 import { Input } from '@repo/ui-components/input'

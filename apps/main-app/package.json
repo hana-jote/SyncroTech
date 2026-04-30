@@ -10,17 +10,17 @@
   },
   "dependencies": {
     "@vercel/analytics": "1.6.1",
+    "@repo/ui-components": "*",
+    "@repo/utils": "*",
     "feature-x": "*",
     "feature-y": "*",
     "next": "^16.2.0",
     "next-themes": "^0.4.6",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "ui-components": "*",
-    "utils": "*"
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.2.0",
+    "@tailwindcss/postcss": "^4.2.4",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",

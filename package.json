@@ -1,6 +1,11 @@
 {
   "name": "my-monorepo",
   "private": true,
+  "scripts": {
+    "dev": "npm run dev --workspace main-app",
+    "build": "npm run build --workspace main-app",
+    "start": "npm run start --workspace main-app"
+  },
   "workspaces": [
     "packages/*",
     "apps/*"
