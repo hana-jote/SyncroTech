@@ -14,3 +14,4 @@ export { default as DashboardUsers } from "./src/dashboard/users/Users";
 export { default as HowItWorks } from "./src/how-it-works/HowItWorks";
 export { default as Landing } from "./src/landing/Landing";
 export { default as Pricing } from "./src/pricing/Pricing";
+export { default as Register } from "./src/register/Register";
