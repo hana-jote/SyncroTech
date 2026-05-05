@@ -66,7 +66,7 @@ export default function About() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background via-background to-muted relative overflow-hidden">
+    <div className="min-h-screen bg-linear-to-b from-background via-background to-muted relative overflow-hidden">
       <AnimatedBackground />
 
       <div className="relative z-10">
@@ -79,10 +79,7 @@ export default function About() {
             <h1 className="text-5xl sm:text-6xl font-bold text-foreground mb-6 animate-slide-in-bottom">
               About TradeBridge
             </h1>
-            <p
-              className="text-xl text-muted-foreground max-w-2xl mx-auto animate-slide-in-bottom"
-              style={{ animationDelay: "0.1s" }}
-            >
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-slide-in-bottom delay-100">
               We&apos;re building the future of supply chain management with
               innovative technology and a commitment to our community.
             </p>
@@ -185,7 +182,7 @@ export default function About() {
 
         {/* CTA Section */}
         <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="rounded-xl bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 border border-primary/20 p-12 text-center animate-slide-in-bottom animate-gradient-shift">
+          <div className="rounded-xl bg-linear-to-r from-primary/10 via-secondary/10 to-accent/10 border border-primary/20 p-12 text-center animate-slide-in-bottom animate-gradient-shift">
             <h3 className="text-3xl font-bold text-foreground mb-4">
               Ready to Join TradeBridge?
             </h3>

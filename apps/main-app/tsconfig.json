@@ -22,9 +22,15 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",
+    "forceConsistentCasingInFileNames": true,
+    "ignoreDeprecations": "6.0",
     "paths": {
       "@/*": [
         "./*"
+      ],
+      "@repo/*": [
+        "../../packages/*"
       ]
     }
   },
